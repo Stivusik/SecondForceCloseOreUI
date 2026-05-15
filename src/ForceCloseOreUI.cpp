@@ -116,7 +116,7 @@ public:
 #elif __aarch64__
 #define OREUI_PATTERN                                                                     \
      std::initializer_list<const char *>({                                                \
-    "? ? ? D1 ? ? ? A9 ? ? ? 91 ? ? ? A9 ? ? ? A9 ? ? ? A9 ? ? ? A9 ? ? ? A9 E8 03 03 AA" \
+    "FF 03 06 D1 FD 7B 12 A9 FC 6F 13 A9 FA 67 14 A9 F8 5F 15 A9 F6 57 16 A9 F4 4F 17 A9 FD 83 04 91 49 D0 3B D5 F7 03 05 AA" \
   })
 #define OREUI_registerToggle                                                                                                  \
      std::initializer_list<const char *>({                                                                               \
